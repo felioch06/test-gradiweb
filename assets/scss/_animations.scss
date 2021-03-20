@@ -1,0 +1,30 @@
+
+.animate-x{
+    transition: .5s !important;
+    transform: translateX(0px);
+
+    &:hover{
+        transition: .5s;
+        transform: translateX(15px);
+    }
+}
+
+.animate-x-n{
+    transition: .5s !important;
+    transform: translateX(0px);
+
+    &:hover{
+        transition: .5s;
+        transform: translateX(-10px);
+    }
+}
+
+.animate-z{
+    transition: .5s !important;
+    transform: scale(1,1);
+
+    &:hover{
+        transition: .5s;
+        transform: scale(1.05,1.05)
+    }
+}

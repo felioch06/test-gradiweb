@@ -1,0 +1,19 @@
+.img-map{
+    width: 150px;
+}
+
+.img-logo{
+    width: 5%;
+}
+
+
+@media(max-width:600px){
+    .img-map{
+        width: 200px;
+    }
+    
+    .img-logo{
+        width: 15%;
+        margin: auto;
+    }
+}
